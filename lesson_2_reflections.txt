@@ -3,3 +3,6 @@ What happens when you initialize a repository? Why do you need to do it?
 The .git subdirectory is created, and populated. It is needed for (among other things) storing delta-files to manage history, 
 and signaling to GIT that this directory is a git repository.
 
+How is the staging area different from the working directory and the repository? What value do you think it offers? 
+
+The staging area is where tracked files that aren't yet commited to the repository are saved. This is usefull because it offers a second chance to regret any additions, and in the case of a remote repository it also facilitates working offline, and then commiting the history when connectivity is restored. 
