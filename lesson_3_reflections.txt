@@ -14,3 +14,7 @@ A fork is a clone that happens on github. This is used when a copy of a reposito
 A clone is a copy of a repository, including all commit history. This is used when a copy of a repository that is not necessarily on github. 
 A branch is a divergence in the linear history of a commit. This is useful if an experimental feature is demanded or if multiple collaborators work on different features in the same 
 commit tree. 
+
+What is the benefit of having a copy of the last known state of the remote stored locally? 
+
+As was demonstrated in the video, storing the local state of the remote locally allows for continued work locally even if contact with the remote is lost. 
