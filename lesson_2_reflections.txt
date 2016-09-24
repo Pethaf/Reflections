@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it? 
+
+The .git subdirectory is created, and populated. It is needed for (among other things) storing delta-files to manage history, 
+and signaling to GIT that this directory is a git repository.
+
