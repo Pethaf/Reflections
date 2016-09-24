@@ -24,3 +24,7 @@ What is the result of merging two branches together? Why do we represent it in t
 
 Merging two branches results in a node/commit with two parents. It also results in a node label being deleted. 
 
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually? 
+
+Pro: It is automatic, everything is handled by the system. 
+Con: It still requires manual interaction to handle conflicts. Automatic handling still means some surrender of controll. 
