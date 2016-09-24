@@ -1,0 +1,4 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Instead of having to do a manual line by line comparison of each file, potentially wading through
+100s of lines of code. I could use diff to find the exact lines where the two files were different. 
