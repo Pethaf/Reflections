@@ -8,3 +8,13 @@ How could having easy access to the entire history of a file make you a more eff
 One case where this is useful is the scenario where a design decision has to be changed. Access to entire history 
 makes it easy to determine how big such changes would be. It is also an advantage to be able to track how a specific 
 feature changes. 
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, 
+vs having versions automatically saved, like Google Docs does? 
+
+Pro: 
+Can decide when to save (avoids saving trivial or too big changes automatically, can decide exactly when to save)
+Can decide what to save (enforces 1 logical change per commit rule)
+
+Con:
+Can decide when to save (easy to forget when to save)
