@@ -18,3 +18,9 @@ Can decide what to save (enforces 1 logical change per commit rule)
 
 Con:
 Can decide when to save (easy to forget when to save)
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, 
+while others, like Google Docs, treat each file separately? 
+
+Main reason: Google Docs isn't geared towards code. It is aimed towards office documents where interdependence among files 
+is very rare. I think this is the main reason behind the different strategies. 
