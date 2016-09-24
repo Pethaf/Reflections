@@ -29,3 +29,8 @@ How can you use the commands git log and git diff to view the history of files?
 
 git log shows the entire commmit history for the repository. This can be used to find all changes to files since the begining of the repository. 
 git diff can be used to view changes between any two commits in the repository history. 
+
+How might using version control make you more confident to make changes that could break something? 
+
+As version control makes it easy to revert to a commit before breakage, mitigating the bug becomes almost trivial. 
+
