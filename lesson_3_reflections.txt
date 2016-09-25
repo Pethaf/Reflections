@@ -22,4 +22,9 @@ As was demonstrated in the video, storing the local state of the remote locally 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder? 
 
 This is 2 questions rolled into one. The first question is what I would do without using GIT. 
-The answer to this question depends on what is meant by "without GIT". If this means that I am free to use another version controll system, like SVN, bzr, or HG then colaboration would carry out pretty much as it does while using GIT. Without GIThub it is still possible to use git over ssh and https to collaborate on local repos. With access to neither version control system nor github then it is probably back to using different file names and mailing/scping back and forth. 
+The answer to this question depends on what is meant by "without GIT". If this means that I am free to use another version controll system, like SVN, bzr, or HG then colaboration would carry out pretty much as it does while using GIT. Without GIThub it is still possible to use git over ssh and https to collaborate on local repos. With access to neither a version control system nor github then it is probably back to using different file names and mailing/scping back and forth. 
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have
+
+E.g. if the branch contains experimental features that are being evaluated, while the master branch contains the stable version. Or if one branch is 
+open for all to contribute to, but only a select group is allowed to commit to the main branch.
