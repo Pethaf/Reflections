@@ -18,3 +18,8 @@ commit tree.
 What is the benefit of having a copy of the last known state of the remote stored locally? 
 
 As was demonstrated in the video, storing the local state of the remote locally allows for continued work locally even if contact with the remote is lost. 
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder? 
+
+This is 2 questions rolled into one. The first question is what I would do without using GIT. 
+The answer to this question depends on what is meant by "without GIT". If this means that I am free to use another version controll system, like SVN, bzr, or HG then colaboration would carry out pretty much as it does while using GIT. Without GIThub it is still possible to use git over ssh and https to collaborate on local repos. With access to neither version control system nor github then it is probably back to using different file names and mailing/scping back and forth. 
